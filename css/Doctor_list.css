@@ -1,0 +1,35 @@
+			table {
+			    border-collapse: collapse;
+			}
+
+			th {
+			    background-color: #54585d;
+                border: 1px solid #54585d;
+                padding: 5px;
+			    color: #ffffff;
+			    font-weight: bold;
+                font-size: 13px;
+                
+			}
+
+			.gray:hover {
+			    background-color: #64686e;
+			}
+
+			td {
+			    padding: 10px;
+			    color: #636363;
+			    border: 1px solid #dddfe1;
+			}
+
+			tr {
+			    background-color: #ffffff;
+			}
+
+			tr .highlight {
+			    background-color: #f9fafb;
+            }
+            .gray{
+                background-color:#54585d;
+                vertical-align:unset;
+            }

@@ -1,0 +1,354 @@
+/* body{
+    margin:0px;
+    border:0px;
+    background-color:white;
+    font-family: Georgia, serif;
+}
+
+#navBar{
+    width:100%;
+    background-color:#87CEFA;
+    height:60px;
+    color: white;
+    top:0;
+    margin-left: 0px;
+    margin-right:0px;
+    opacity: 0.9;
+}
+
+#nav-SubBar{
+    height: 20px;
+    background:lightgrey;
+    box-shadow:  2px 2px 5px rgba(0, 0, 0, .5);
+    padding:8px;
+    border:1px solid black;
+    margin-right: 3%;
+    margin-top: 0.7%;
+    float:right;
+} */
+
+#MPform {
+  height: 655px;
+}
+
+#innerDiv {
+  height: 660px;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#IG {
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: rgba(0, 0, 0, .1);
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, .4);
+  height: 40%;
+}
+
+#imgGalery {
+  width: 20%;
+  height: 250px;
+  margin-left: 2%;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, .5);
+}
+
+#categ {
+  font-family: Georgia;
+  font-size: 40px;
+  margin: 15px;
+  background-color: lightgrey;
+  color: black;
+  width: 200px;
+}
+
+#categ li {
+  font-size: 50px;
+}
+
+#imgtable {
+  border: 1px solid yellow;
+  font-family: Georgia;
+  color: black;
+  /* width: 100%; */
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 89%;
+  position: absolute;
+  top: 60px;
+  left: 0;
+}
+
+.wallpaper {
+  height: 670px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.login-reg-panel {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  width: 40%;
+  right: 0;
+  left: 0;
+  margin: auto;
+  height: 70px;
+  background-color: rgba(30, 30, 30, 0.9);
+}
+
+.white-panel {
+  background-color: rgba(255, 255, 255, 1);
+  height: 200px;
+  position: absolute;
+  top: -50px;
+  width: 40%;
+  right: calc(50% -50px);
+  transition: .3s ease-in-out;
+  z-index: 0;
+}
+
+/* style for the login form*/
+
+.box {
+  /* width:70%; */
+  padding: 8%;
+  /* height:69%; */
+  background-color: rgba(0, 0, 0, .2);
+  text-align: center;
+  border-radius: 15px;
+}
+
+.box h1 {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.box input[type="text"], .box input[type="password"],.box input[type="date"], .box select {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 4% auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 65%;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.box input[type="text"]:focus, .box input[type="password"]:focus {
+  width: 280px;
+  border-color: #2ecc71;
+}
+
+.box input[type="button"],.box input[type="submit"],.box input[type="reset"] {
+  border: 0;
+  background: none;
+  margin-top: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 30%;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box input[type="button"]:hover ,.box input[type="submit"]:hover ,.box input[type="reset"]:hover{
+  background: #2ecc71;
+}
+
+/*box for alert*/
+
+.divbox {
+  width: 500px;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 0 0 20px black;
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  padding: 10px;
+  text-align: center;
+  display: none;
+}
+
+.close {
+  font-size: 20px;
+  color: white;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 4px;
+  float: unset;
+}
+.divbox .close{
+    background: #3498db;
+
+}
+
+/* For the menu list*/
+
+#lastPartDiv {
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+}
+
+ul#menuList {
+  position: absolute;
+  text-align: center;
+  /* width: 23%; */
+  height: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: 5%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-weight: 700;
+  font-size: 150%;
+  background: rgba(0, 0, 0, .1);
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+ul#menuList li {
+  display: inline-block;
+  width: 75%;
+  text-align: center;
+  /* height: 15%; */
+  /* background: lightblue;
+  color: black; */
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-top: 6%;
+  transition: .3s;
+}
+
+/* ul#menuList li:nth-child(n) {
+  background: #87CEFA;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, .5);
+} */
+
+ul#menuList li:hover {
+  transform: scale(1.06);
+  /* background: #ff3772; */
+  text-decoration: underline;
+}
+
+/*img table*/
+
+#imgtable {
+  float: right;
+  /* width: 60%; */
+  margin: 5%;
+  height: 550px;
+  background: rgba(0, 0, 0, .1);
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#imgtable tr td {
+  text-align: center;
+  font-weight: 800;
+  width: 25%;
+  padding-bottom: 10px;
+}
+
+#imgtable tr td img {
+  width: 80%;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-right: 5px;
+  height: 180px;
+  background-size: auto;
+}
+
+#imgtable input[type="button"] {
+  background-color: white;
+  color: black;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#imgtable input[type="button"]:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+#imgtable button, #confirmButton, #divClose {
+  background-color: #87CEFA;
+  color: black;
+  width: 110px;
+  height: 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#imgtable button:hover {
+  background-color: #f44336;
+  border: 1px solid black;
+  color: white;
+}
+
+#imgtable img {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+}
+
+.addchartB {
+  width: 50px;
+  height: 30px;
+}
+
+button.close {
+  background: #3498db;
+  padding: 10px 30px;
+  opacity: unset;
+}
+
+/*user information div*/
+
+.userinfodiv {
+  width: 100%;
+  height: 400px;
+  background-color: lightgrey;
+  margin-top: 0;
+  padding:
+}
+
+.userinfodiv table {}

@@ -1,0 +1,14 @@
+#displayAC th{
+	font-size:25px
+}
+.add-button:hover{
+  background-color: #2EE59D;
+  color: #fff;
+}
+tr.noBorder td {
+  border: 0;
+}
+.button_Broder{
+	border: 1px solid white;
+    border-radius: 8px;
+}
